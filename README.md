@@ -1,3 +1,3 @@
 # OpenGL-SpaceGame
 
-Just build in VS 2015
+Build and Execute in VS 2019
