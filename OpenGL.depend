@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1715266412 source:/home/kaankoc/Projects/OpenGL-SpaceGame/OpenGL/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
