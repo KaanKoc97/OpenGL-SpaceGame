@@ -1,3 +1,6 @@
 # OpenGL-SpaceGame
 
-Build and Execute in VS 2019
+Compile with command
+
+g++ main.cpp glad.c -I . -ldl -lglfw -lfreetype -o spacegame.exe
+
