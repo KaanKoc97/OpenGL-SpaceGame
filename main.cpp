@@ -484,6 +484,10 @@ int main()
 						crash++;
 						life--;
 					}
+					else if (CollidesWithFire(*scene[i]))
+					{
+						DeleteFromScene(scene[i]->id);
+					}
 					else if (intersect(garbage, *scene[i]))
 					{
 						DeleteFromScene(scene[i]->id);

@@ -46,7 +46,8 @@ bool CollidesWithBlock(GameObj3D& check)
         {
             if (obj->type == "block" && intersect(check, *obj))
             {
-                if(check.type == "fire"){
+                if(check.type == "fire")
+                {
                     DeleteFromScene(obj->id);
                 }
                 return true;
@@ -65,6 +66,10 @@ bool CollidesWithFire(GameObj3D& check)
         {
             if (obj->type == "fire" && intersect(check, *obj))
             {
+                if(check.type == "block") 
+                {
+                    DeleteFromScene(obj->id);
+                }
                 return true;
             }
         }
