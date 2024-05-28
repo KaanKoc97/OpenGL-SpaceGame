@@ -101,19 +101,19 @@ void keyCallback(GLFWwindow* _, int key, int scancode, int action, int mods)
 {
 	if (key == GLFW_KEY_W && action == GLFW_PRESS)
 	{
-		moveFront = 1;
+		moveUp = 1;
 	}
 	else if (key == GLFW_KEY_W && action == GLFW_RELEASE)
 	{
-		moveFront = 0;
+		moveUp = 0;
 	}
 	if (key == GLFW_KEY_S && action == GLFW_PRESS)
 	{
-		moveFront = -1;
+		moveUp = -1;
 	}
 	else if (key == GLFW_KEY_S && action == GLFW_RELEASE)
 	{
-		moveFront = 0;
+		moveUp = 0;
 	}
 	if (key == GLFW_KEY_D && action == GLFW_PRESS)
 	{
