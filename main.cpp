@@ -32,7 +32,7 @@ using namespace std;
 
 // Globals
 int u_transform, u_pv, u_frame, u_light_pos, u_light_color;
-int moveFront = 0, moveRight = 0;
+int moveFront = 0, moveRight = 0, moveUp = 0;
 int score = 0;
 float mouseX = 0, mouseY = 0;
 bool fired = false;
@@ -379,6 +379,9 @@ int main()
 			// update spacecraft
 			spaceCraft.moveRight(moveRight * -0.1, true);
 			spaceCraft.rotate(0, moveRight * -10, 0, true);
+			spaceCraft.moveUp(moveUp * 0.1, true);
+			spaceCraft.rotate(moveUp * 10, 0, 0, true);
+
 
 			// texture change based on life
 			if (life == 1)
