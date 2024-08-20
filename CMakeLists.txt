@@ -46,10 +46,10 @@ set(SOURCES
 )
 
 # Create an executable target
-add_executable(MyExecutable ${SOURCES})
+add_executable(SpaceCraft ${SOURCES})
 
 # Link against libraries
-target_link_libraries(MyExecutable ${GLFW_LIBRARIES} ${OPENGL_LIBRARIES} freetype)
+target_link_libraries(SpaceCraft ${GLFW_LIBRARIES} ${OPENGL_LIBRARIES} freetype)
 
 # Optionally, if you need to link against additional libraries, add them here
-# target_link_libraries(MyExecutable additional_library)
+# target_link_libraries(SpaceCraft additional_library)
