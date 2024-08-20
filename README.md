@@ -1,6 +1,8 @@
 # OpenGL-SpaceGame
 
-Compile with command
-
-g++ main.cpp glad.c -I . -ldl -lglfw -lfreetype -o spacegame.exe
-
+# Installation
+* Requirements
+- Microsoft Visual C++
+- OpenGL
+- glfw3
+- glad
