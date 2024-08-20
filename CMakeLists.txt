@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(MyOpenGLProject)
+project(SpaceCraft)
 
 # Copy font file to build directory
 configure_file("/home/kaankoc/Projects/OpenGL-SpaceGame/include/fonts/space.ttf" "${CMAKE_CURRENT_BINARY_DIR}/space.ttf" COPYONLY)
